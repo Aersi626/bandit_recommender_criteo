@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/*
+!data/.gitkeep   # Keep the data folder itself, but ignore files
+
+# Model files
+models/*
+!models/.gitkeep  # If you later save trained bandit models
+
+# Streamlit cache
+.streamlit/
+
+# Docker
+*.log
+*.pid
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# System-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Config files (optional if sensitive info inside)
+config/config.yaml
+
+# Output artifacts
+*.sav
+*.pkl
+*.npy
+*.npz
+*.h5
+*.txt
+*.tar.gz
+*.zip
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+.hotreload/
